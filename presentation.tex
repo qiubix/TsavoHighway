@@ -34,7 +34,7 @@
 %\usetheme{Berkeley}
 %\usetheme{Berlin}
 %\usetheme{Boadilla}
-%\usetheme{CambridgeUS}
+\usetheme{CambridgeUS}
 %\usetheme{Copenhagen}
 %\usetheme{Darmstadt}
 %\usetheme{Dresden}
@@ -53,7 +53,7 @@
 %\usetheme{Rochester}
 %\usetheme{Singapore}
 %\usetheme{Szeged}
-\usetheme{Warsaw}
+%\usetheme{Warsaw}
 
 % As well as themes, the Beamer class has a number of color themes
 % for any slide theme. Uncomment each of these in turn to see how it
@@ -81,6 +81,7 @@
 }
 
 \usepackage{graphicx} % Allows including images
+\usepackage{movie15}
 \usepackage{subfig}
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage[skip=2pt,font=scriptsize]{caption}
@@ -91,14 +92,15 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Short Title]{Full Title} % The short title appears at the bottom of every slide, the full title is only on the title page
+%\title[VIM]{Zwiększ swoją produktywność\\ ...czyli wybierz (naj)lepszy edytor} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[VIM]{Wybierz najlepszy edytor\\i~dlaczego jest to VIM} % The short title appears at the bottom of every slide, the full title is only on the title page
 
-\author{Author} % Your name
-\institute[Institute] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+\author{Karol Katerżawa} % Your name
+\institute[IAiIS] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
-Full Institute Name \\ % Your institution for the title page
+Instytut Automatyki i~Informatyki Stosowanej \\ % Your institution for the title page
 \medskip
-\textit{\textbf{Promotor:} email} % Your email address
+\textit{\textbf{Promotor:} dr~inż. Tomasz Kornuta} % Your email address
 }
 \date{\today} % Date, can be changed to a custom date
 %\date{21.02.2014 r.} % Data obrony
@@ -106,13 +108,13 @@ Full Institute Name \\ % Your institution for the title page
 %----------------------------------------------------------------------------------
 % FRAME NUMBERING MACRO
 %----------------------------------------------------------------------------------
-\expandafter\def\expandafter\insertshorttitle\expandafter{%
-  \insertshorttitle\hfill%
-  \insertframenumber\,/\,\inserttotalframenumber}
-  
-\setbeamerfont{caption name}{size=\tiny}
-\setlength{\textfloatsep}{5pt plus 1.0pt minus 2.0pt}
-\setlength{\floatsep}{5pt plus 1.0pt minus 2.0pt}
+%\expandafter\def\expandafter\insertshorttitle\expandafter{%
+%  \insertshorttitle\hfill%
+%  \insertframenumber\,/\,\inserttotalframenumber}
+%  
+%\setbeamerfont{caption name}{size=\tiny}
+%\setlength{\textfloatsep}{5pt plus 1.0pt minus 2.0pt}
+%\setlength{\floatsep}{5pt plus 1.0pt minus 2.0pt}
 %---------------------------------------------------------------------------------------
 % BEGIN DOCUMENT
 %---------------------------------------------------------------------------------------
@@ -130,6 +132,50 @@ Full Institute Name \\ % Your institution for the title page
 %----------------------------------------------------------------------------------------
 %	PRESENTATION SLIDES
 %----------------------------------------------------------------------------------------
+
+\section{Wprowadzenie}
+\label{sec:Wprowadzenie}
+
+\begin{frame}[t]{Jaki edytor wybrać?}
+  \begin{block}{Kryteria wyboru}
+    \begin{itemize}
+      \item Przeznaczenie
+      \item Łatwość obsługi
+      \item Możliwości
+      \item Estetyka
+      \item Szybkość działania
+      \item Przenośność
+      \item Cena
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}[t]{Typy edytorów}
+  \begin{itemize}
+    \item zwykły notatnik (np. notatnik, gedit)
+    \item lepszy notatnik (np. Notepad++, geany, TextMate, Sublime Text)
+    \item IDE (np. Eclipse, IntelliJ IDEA, Netbeans)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[t]{VIM - edytor hakera?}
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.8\textwidth]{images/matrix.gif}
+%\includemovie{5cm}{5cm}{images/matrix.gif}
+%\end{figure}
+\end{frame}
+
+\section{Przewaga VIMa}
+\label{sec:Przewaga VIMa}
+
+\section{Droga VIMa}
+\label{sec:Droga VIMa}
+
+\section{Jak się nauczyć?}
+\label{sec:Jak się nauczyć?}
+
+
 
 \section{First section}
 \subsection{First subsection}
