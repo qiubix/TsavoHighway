@@ -82,6 +82,7 @@
 
 \usepackage{graphicx} % Allows including images
 \usepackage{animate}
+%\usepackage{multimedia}
 \usepackage{movie15}
 \usepackage{subfig}
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
@@ -171,9 +172,11 @@ Instytut Automatyki i~Informatyki Stosowanej \\ % Your institution for the title
 %\begin{figure}
 %\centering
 %\includegraphics[width=0.8\textwidth]{images/matrix.gif}
-%\includemovie{5cm}{5cm}{images/matrix.gif}
+%\includemovie{5cm}{5cm}{images/out.mp4}
 %\end{figure}
-  \animategraphics[width=0.8\textwidth,autoplay,controls]{12}{images/imgpdf/matrix_}{0}{10}
+%\animategraphics[width=0.8\textwidth,autoplay,controls]{12}{images/imgpdf/matrix_}{0}{10}
+  \animategraphics[loop,autoplay]{12}{images/imgpdf/matrix_}{0}{10}
+  %\movie[width=0.8\textwidth]{images/imgpdf/matrix_0.pdf}{images/matrix.gif}
 \end{frame}
 
 \section{Przewaga VIMa}
