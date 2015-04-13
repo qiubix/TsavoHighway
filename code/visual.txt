@@ -1,0 +1,4 @@
+Tryb VISUAL pozwala na zaznaczanie tekstu.
+Można to zrobić na różne sposoby.
+Można szybko przełączać między trybami zaznaczania.
+Można zaznaczyć dowolny obszar (o dowolnym kształcie).

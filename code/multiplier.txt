@@ -1,0 +1,5 @@
+Ten plik ma za dużo linii.
+Niepotrzebna linia.
+Niepotrzebna linia.
+Niepotrzebna linia.
+Potrzebna linia.
