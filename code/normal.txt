@@ -1,0 +1,3 @@
+To jest przykładowy plik tekstowy.
+Zawiera tylko trzy linie.
+Nazywa się normal.txt, bo nie ma tu nic dziwnego.
